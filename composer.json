@@ -1,0 +1,19 @@
+{
+    "name": "wprefers/nepali-chrono-craft",
+    "description": "Seamlessly convert and display dates between Gregorian and Nepali calendars, celebrating Nepal's rich heritage on your website.",
+    "type": "plugin",
+    "autoload": {
+        "psr-4": {
+            "WPRefers\\NepaliChronoCraft\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WP Refers",
+            "email": "wprefers@gmail.com"
+        }
+    ],
+    "require": {
+
+    }
+}
