@@ -94,9 +94,9 @@ class NepaliDate
                         $prevCount += DataConfig::YEAR_MONTH_WISE_DAYS_LENGTH[$i][$j];
                         if($prevCount > $days)
                         {
-                            $month = $j + 1; //Even I don't Know Why should I add 1 :p
-                            $daysss = $prevCount - $days;
-                            $dayss = (DataConfig::YEAR_MONTH_WISE_DAYS_LENGTH[$i][$j] - $daysss) + 1;
+                            $month = $j + 1;
+                            $daysAlias = $prevCount - $days;
+                            $currentDay = (DataConfig::YEAR_MONTH_WISE_DAYS_LENGTH[$i][$j] - $daysAlias) + 1;
                             break;
                         } elseif ($prevCount == $days)
                         {
@@ -117,7 +117,7 @@ class NepaliDate
             throw new Exception('Invalid Date Range');
         }
 
-        return array('y' => $year, 'm' => $month, 'M' => DataConfig::MONTH_NE_ALIAS[$month - 1], 'd' => $dayss, 'l' => $dayName);
+        return array('y' => $year, 'm' => $month, 'M' => DataConfig::MONTH_NE_ALIAS[$month - 1], 'd' => $currentDay, 'l' => $dayName);
     }
 
     public function convertBsToAd($year, $month, $day)
