@@ -14,17 +14,12 @@ class NepaliChronoCraft
 
     public function __construct()
     {
-        // Add Javascript and CSS for front-end display
         add_action('wp_enqueue_scripts', array( $this, 'enqueue' ));
 
-        // Add the shortcode for front-end form display
         add_action( 'init', array( $this, 'add_shortcode' ) );
-        // Add ajax function that will receive the call back for logged in users
         add_action( 'wp_ajax_nepali_chrono_craft_xhr_action', array( $this, 'nepali_chrono_craft_xhr_action') );
-        // Add ajax function that will receive the call back for guest or not logged in users
         add_action( 'wp_ajax_nopriv_nepali_chrono_craft_xhr_action', array( $this, 'nepali_chrono_craft_xhr_action') );
 
-        // Add shortcode support for widgets
         add_filter('widget_text', 'do_shortcode');
     }
 

@@ -3,7 +3,7 @@ Contributors: wprefers
 Tags: Date Converter, Bikram Sambat, Gregorian, Nepali Date
 Donate link: https://www.buymeacoffee.com/sachinkiranti
 Requires at least: 5.0
-Tested up to: 6.0
+Tested up to: 6.3
 Requires PHP: 5.6
 Stable tag: 1.0.0
 License: GNU General Public License v3.0
@@ -26,8 +26,8 @@ Features :
 
 ## Quick Links
 
-- Tutorial: [Nepali Chrono Craft](https://wprefers.com/nepali-chrono-craft/)
-- Demo: [https://wprefers.com/nepali-chrono-craft/](https://wprefers.com/nepali-chrono-craft/)
+- Tutorial: [Nepali Chrono Craft](https://wprefers.com/nepali-date-converter/)
+- Demo: [https://wprefers.com/nepali-date-converter/](https://wprefers.com/nepali-date-converter/)
 - [Buy me a coffee](https://www.buymeacoffee.com/sachinkiranti)
 
 == Installation ==

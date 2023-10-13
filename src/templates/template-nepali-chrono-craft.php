@@ -1,8 +1,6 @@
 <div class="nepali-chrono-craft-wrapper">
     <div class="nepali-chrono-craft-query">
     </div>
-
-    <!-- HTML Form -->
     <div class="nepali-chrono-craft-form-wrapper">
         <div class="nepali-chrono-craft-conversion">
             <div class="nepali-chrono-craft-inputs">

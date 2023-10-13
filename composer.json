@@ -10,7 +10,15 @@
     "authors": [
         {
             "name": "WP Refers",
-            "email": "wprefers@gmail.com"
+            "email": "wprefers@gmail.com",
+            "homepage": "https://wprefers.com",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Sachin Rai",
+            "email": "sachinkiranti@gmail.com",
+            "homepage": "https://raisachin.com.np",
+            "role": "Developer"
         }
     ],
     "require": {
