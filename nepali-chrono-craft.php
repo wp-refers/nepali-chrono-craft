@@ -9,7 +9,7 @@
  * Plugin Name:       Nepali Chrono Craft
  * Plugin URI:        https://wordpress.org/plugins/nepali-chrono-craft/
  * Description:       <code><strong>Nepali Chrono Craft for WordPress</strong></code> plugin allows you to Seamlessly convert and display dates between Gregorian and Nepali calendars, celebrating Nepal's rich heritage on your website.</a>
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            WPRefers
  * Author URI:        https://wprefers.com/
  * Text Domain:       nepali-chrono-craft

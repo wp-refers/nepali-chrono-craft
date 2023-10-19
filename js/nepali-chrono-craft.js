@@ -48,4 +48,5 @@
         }
     }
     NepaliChronoCraftManager.init();
+
 }) (jQuery);

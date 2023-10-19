@@ -14,7 +14,7 @@
 
 .nepali-chrono-craft-inputs label {
     font-weight: bold;
-    color: #42b983;
+    color: #e34f4f;
 }
 
 .nepali-chrono-craft-inputs {
@@ -35,7 +35,7 @@
 
 .nepali-chrono-craft-inputs input:focus {
     outline: none;
-    border-color: #42b983;
+    border-color: #e34f4f;
 }
 
 .nepali-chrono-craft-inputs .nepali-chrono-craft-submit-form {
@@ -43,14 +43,14 @@
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #42b983;
+    background-color: #e34f4f;
     color: #fff;
     font-size: 14px;
     cursor: pointer;
 }
 
 .nepali-chrono-craft-inputs .nepali-chrono-craft-submit-form:hover {
-    background-color: #32a774;
+    background-color: #e34f4f;
 }
 
 .nepali-chrono-btn-submit .btn-ad-to-bs {
